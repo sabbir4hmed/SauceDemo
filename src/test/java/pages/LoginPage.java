@@ -60,7 +60,7 @@ public class LoginPage extends Utilities
             test.pass("<p style=\"color:green; font-size:13px\"><b>Login Test Click Pass</b></p>");
             timeout(5000);
             String sspath = ScreenshotFactory.capture(PageDriver.getcurrentdriver(), "Login Test Click Pass");
-            String savess = System.getProperty("User.dir")+"\\screenshots\\"+"Login Test Click Pass";
+            String savess = System.getProperty("User.dir")+"\\screenshots\\"+"Login Test Click Pass"+".png";
             test.pass(MediaEntityBuilder.createScreenCaptureFromPath(sspath).build());
             timeout(5000);
 

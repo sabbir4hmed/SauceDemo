@@ -10,6 +10,10 @@
 
             <class name="tests.ProductSelectTest"/>
 
+            <class name="tests.CartAndRemoveTest"/>
+
+            <class name="tests.CheckOutTest"/>
+
 
 
         </classes>
